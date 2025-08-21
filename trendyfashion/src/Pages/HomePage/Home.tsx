@@ -1,5 +1,5 @@
 
-import Hero from "../../assets/hero.jpg";
+import Hero from "../../components/Hero/Hero";
 import Navbar from "../../components/Navbar/Navbar";
 
 
@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
        <Navbar/>
-      <img src={Hero} alt=""  />
+      <Hero/>
     </div>
   )
 }
