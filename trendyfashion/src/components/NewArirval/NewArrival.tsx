@@ -6,9 +6,9 @@ const NewArrival = () => {
 
 
     
-     <div>
+     <div className="bg-gray-100">
 
-        <div className="m-10">
+        <div className="pt-10">
             <h2 className="text-center p-4">NEW ARRIVAL</h2>
         </div>
 <section className="py-10 bg-gray-100">
