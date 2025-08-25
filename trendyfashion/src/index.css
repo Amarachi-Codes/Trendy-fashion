@@ -1,19 +1,21 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Gilroy-Bold',sans-serif;
+
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Playfair Display", serif; /* Headlines */
+  --font-body: "Poppins", sans-serif;       /* Body text */
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+/* Base styles */
+@layer base {
+  body {
+    @apply bg-neutral text-gray-900;
+    font-family: var(--font-body);
   }
-  a:hover {
-    color: #747bff;
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-gray-900;
+    font-family: var(--font-display);
   }
-  button {
-    background-color: #f9f9f9;
-  }
-} 
+}
+
