@@ -1,4 +1,5 @@
 
+import Brands from "../../components/Brands/Brands";
 import Hero from "../../components/Hero/Hero";
 import Navbar from "../../components/Navbar/Navbar";
 import NewArrival from "../../components/NewArirval/NewArrival";
@@ -10,7 +11,7 @@ const Home = () => {
        <Navbar/>
       <Hero/>
       <NewArrival/>
-      
+      <Brands/>
     </div>
   )
 }

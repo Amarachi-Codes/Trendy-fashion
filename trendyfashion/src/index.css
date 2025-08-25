@@ -2,14 +2,16 @@
 @import "tailwindcss";
 
 @theme {
+  --color-brand: #2C14DD;                   /* button blue */
   --font-display: "Playfair Display", serif; /* Headlines */
   --font-body: "Poppins", sans-serif;       /* Body text */
+
 }
 
 /* Base styles */
 @layer base {
   body {
-    @apply bg-neutral text-gray-900;
+    @apply  text-gray-900;
     font-family: var(--font-body);
   }
 
