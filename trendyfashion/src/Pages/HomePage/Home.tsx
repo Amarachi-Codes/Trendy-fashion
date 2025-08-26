@@ -1,6 +1,7 @@
 
 import Brands from "../../components/Brands/Brands";
 import Collections from "../../components/Collections/Collections";
+import ForYou from "../../components/ForYou/ForYou";
 import Hero from "../../components/Hero/Hero";
 import Navbar from "../../components/Navbar/Navbar";
 import NewArrival from "../../components/NewArirval/NewArrival";
@@ -14,6 +15,7 @@ const Home = () => {
       <NewArrival/>
       <Brands/>
       <Collections/>
+      <ForYou/>
     </div>
   )
 }
