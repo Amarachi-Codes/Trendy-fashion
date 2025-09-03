@@ -12,7 +12,7 @@ const Hero = () => {
       <p>Save more with coupons and up to 20% off</p>
       <div className="flex items-center">
         
-       <img className="" src="public/btnBg.png" alt=""/>
+       <img className="" src="/btnBg.png" alt=""/>
        <p>Discover Now</p>
        
       </div>

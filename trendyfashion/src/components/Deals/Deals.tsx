@@ -6,26 +6,26 @@ const Deals = () => {
     <div>
       <div className="flex items-center  justify-around py-14 px-18">
         <div className="">
-            <img className="h-88 w-78" src="public/Wallpaper.jpg" alt="" />
+            <img className="h-88 w-78" src="/Wallpaper.jpg" alt="" />
 
         </div>
         <div className="">
             <h2>Top Deals</h2>
-        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="public/DiorBeachBag.jpg" />
-        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="public/DiorBeachBag.jpg" />
-        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="public/DiorBeachBag.jpg" />
+        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="/DiorBeachBag.jpg" />
+        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="/DiorBeachBag.jpg" />
+        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="/DiorBeachBag.jpg" />
         </div>
         <div className="">
             <h2>Top Selling</h2>
-        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="public/DiorBeachBag.jpg" />
-        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="public/DiorBeachBag.jpg" />
-        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="public/DiorBeachBag.jpg" />
+        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="/DiorBeachBag.jpg" />
+        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="/DiorBeachBag.jpg" />
+        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="/DiorBeachBag.jpg" />
         </div>
         <div className="">
             <h2>Hot Products</h2>
-        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="public/DiorBeachBag.jpg" />
-        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="public/DiorBeachBag.jpg" />
-        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="public/DiorBeachBag.jpg" />
+        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="/DiorBeachBag.jpg" />
+        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="/DiorBeachBag.jpg" />
+        <DealsCard text="Dior Beach Bag " price={235} discount={248} image="/DiorBeachBag.jpg" />
         </div>
       </div>
     </div>
