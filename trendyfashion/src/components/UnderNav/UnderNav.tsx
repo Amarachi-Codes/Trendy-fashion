@@ -38,6 +38,12 @@ const UnderNav = () => {
                   >
                    Jewelry and Accessories
                   </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-2 text-sm text-gray-300 hover:bg-white/5 hover:text-white"
+                  >
+                   Bags and Shoes
+                  </a>
                   <button
                     type="button"
                     className="block w-full px-4 py-2 text-left text-sm text-gray-300 hover:bg-white/5 hover:text-white"
