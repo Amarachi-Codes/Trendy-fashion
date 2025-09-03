@@ -6,7 +6,7 @@
     background-color: #fff;
     color: #000;
     justify-content: space-between;
-    padding: 24px 28px;
+    padding: 16px 98px;
     position: sticky;
     top: 0;
   } 
@@ -31,22 +31,22 @@
     display: flex;
     align-items: center;
     padding-left: 4px;
-    border: 1px solid #2C14DD;
+    border: 1px solid #e17100;
     
     
   }
   .nav .navCenter .inputWrapper input{
     width: 30vw;
-    padding: 8px 4px;
+    padding: 4px 4px;
     border-radius: 10px;
     outline: none;
     border: #fff;
   }
   .nav .navCenter button{
-    padding: 8px 18px;
+    padding: 4px 18px;
     border-radius: 10px;
-    border: #2C14DD;
-    background-color: #2C14DD; 
+    border: #000;
+    background-color: #000; 
     color: #fff;
     margin-left: 8px;
   }
@@ -148,6 +148,9 @@
   
   }
   @media screen and (max-width:910px) {
+     .nav{
+       padding: 16px 24px;
+     }
     .nav .navCenter{
       display: none;
     }

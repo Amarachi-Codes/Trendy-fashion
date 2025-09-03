@@ -6,6 +6,9 @@ import { IoSearchSharp } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
 import { GiTakeMyMoney } from "react-icons/gi";
+import { FaRegHeart } from "react-icons/fa6";
+import { BsCart } from "react-icons/bs";
+import UnderNav from "../UnderNav/UnderNav";
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -14,7 +17,7 @@ const Navbar = () => {
      <nav className="nav">
                 <NavLink to={""} className="logoWrapper">
                     <div className="logo">
-                    <GiTakeMyMoney fill="#2C14DD"/> Trendy Fashion
+                    <GiTakeMyMoney fill="#e17100"/> Trendy Fashion
                     </div>
                 </NavLink>
                 <div className="navCenter">
@@ -27,11 +30,11 @@ const Navbar = () => {
                 </div>
                 <div className="navRight">
                     <ul>
-                        <NavLink to={"/"}>Home</NavLink>
-                        <NavLink to={""}>About Us</NavLink>
-                        <NavLink to={"/signin"}>Login</NavLink>
+                        <NavLink to={"/"}><FaRegHeart /></NavLink>
+                        <NavLink to={""}><BsCart /></NavLink>
+                        {/* <NavLink to={"/signin"}>Login</NavLink>
                         <NavLink to={"/signup"}>Signup</NavLink>
-                        <NavLink to={""}>Profile</NavLink>
+                        <NavLink to={""}>Profile</NavLink> */}
                     </ul>
 
                 </div>
@@ -48,7 +51,9 @@ const Navbar = () => {
              </div>   
                 )}
                 
+                
             </nav> 
+            <UnderNav/>
     </>
   )
 }
