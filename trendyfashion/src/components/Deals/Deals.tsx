@@ -4,8 +4,9 @@ import DealsCard from "../DealsCard/DealsCard"
 const Deals = () => {
   return (
     <div>
-      <div className="flex items-center justify-around py-14 px-18">
-        <div>
+      <div className="flex items-center  justify-around py-14 px-18">
+        <div className="">
+            <img className="h-88 w-78" src="public/Wallpaper.jpg" alt="" />
 
         </div>
         <div className="">
