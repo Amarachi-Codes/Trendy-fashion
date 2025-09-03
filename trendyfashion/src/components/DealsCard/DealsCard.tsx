@@ -8,7 +8,7 @@ interface IDealsCard{
 const DealsCard = ({text,price,discount,image}:IDealsCard) => {
   return (
     <div>
-      <div className="flex gap-8 items-center h-22 ">
+      <div className="flex gap-8 items-center h-22 py-14">
         <div className="w-20 h-16">
             <img src={image} alt="" />
         </div>
