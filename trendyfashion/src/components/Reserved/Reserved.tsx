@@ -3,7 +3,14 @@
 const Reserved = () => {
   return (
     <div>
-      
+    <div className="flex items-center justify-between mx-32 border-t-1 border-gray-300 py-4">
+      <div>
+        <p>&copy; 2025, Trendy Fashion</p>
+      </div>
+      <div>
+        <p>Designed by AmarachiCodes. All rights reserved</p>
+      </div>
+    </div>
     </div>
   )
 }

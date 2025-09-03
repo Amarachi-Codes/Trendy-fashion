@@ -9,6 +9,7 @@ import Hero from "../../components/Hero/Hero";
 import Navbar from "../../components/Navbar/Navbar";
 import NewArrival from "../../components/NewArirval/NewArrival";
 import Newsletter from "../../components/Newsletter/Newsletter";
+import Reserved from "../../components/Reserved/Reserved";
 import TodaysDeals from "../../components/TodaysDeals/TodaysDeals";
 
 
@@ -26,6 +27,7 @@ const Home = () => {
       <Deals/>
       <Newsletter/>
       <Footer/>
+      <Reserved/>
     </div>
   )
 }
