@@ -6,6 +6,7 @@ import HeaderTop from "../../components/HeaderTop/HeaderTop";
 import Hero from "../../components/Hero/Hero";
 import Navbar from "../../components/Navbar/Navbar";
 import NewArrival from "../../components/NewArirval/NewArrival";
+import TodaysDeals from "../../components/TodaysDeals/TodaysDeals";
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <NewArrival/>
       <Brands/>
       <Collections/>
+      <TodaysDeals/>
       <ForYou/>
     </div>
   )
