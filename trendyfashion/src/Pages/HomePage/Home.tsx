@@ -1,6 +1,7 @@
 
 import Brands from "../../components/Brands/Brands";
 import Collections from "../../components/Collections/Collections";
+import Deals from "../../components/Deals/Deals";
 import ForYou from "../../components/ForYou/ForYou";
 import HeaderTop from "../../components/HeaderTop/HeaderTop";
 import Hero from "../../components/Hero/Hero";
@@ -20,6 +21,7 @@ const Home = () => {
       <Collections/>
       <TodaysDeals/>
       <ForYou/>
+      <Deals/>
     </div>
   )
 }
