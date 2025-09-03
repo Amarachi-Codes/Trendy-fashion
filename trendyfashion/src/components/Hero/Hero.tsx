@@ -18,10 +18,10 @@ const Hero = () => {
       </div>
     </div >
     <div className="bg-amber-600 py-14 rounded-full flex items-center justify-around ">
-      {/* <div>
+      <div className="px-4">
       <h1>Big Offer 50% Off</h1>
-      </div> */}
-      <img src={heromain} alt=""  className="h-100 w-120"/>
+      </div>
+      <img src={heromain} alt=""  className="h-100 w-100"/>
       </div>
     </div>
   )
