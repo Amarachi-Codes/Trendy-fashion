@@ -4,7 +4,7 @@ import herolady from "../../assets/herolady.png"
 
 const Hero = () => {
   return (
-    <div className="box-border flex items-center justify-around gap-8 px-48 py-8">
+    <div className="box-border flex items-center justify-around gap-8 py-8 bg-brand">
     <div>
       <h6>Hot Promotions</h6>
       <h3>Fashion Trends</h3>

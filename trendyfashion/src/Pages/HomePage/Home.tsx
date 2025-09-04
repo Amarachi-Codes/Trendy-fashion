@@ -18,6 +18,7 @@ const Home = () => {
     <div >
       <HeaderTop/>
        <Navbar/>
+       <div className="max-w-6xl mx-auto">
       <Hero/>
       <NewArrival/>
       <Brands/>
@@ -25,6 +26,7 @@ const Home = () => {
       <TodaysDeals/>
       <ForYou/>
       <Deals/>
+      </div>
       <Newsletter/>
       <Footer/>
       <Reserved/>

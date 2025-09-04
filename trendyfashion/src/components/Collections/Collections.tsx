@@ -6,9 +6,9 @@ import BackPack from "../../assets/backpack.jpg";
 
 const Collections = () => {
   return (
-    <div className="bg-gray-100 p-6">
-      <div><h2 className="text-center m-10 p-4">COLLECTIONS</h2></div>
-        <div className="mx-auto grid max-w-6xl  grid-cols-1 gap-6 p-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <div className="bg-gray-100 py-6">
+      <div><h2 className="text-center my-10 p-4">COLLECTIONS</h2></div>
+        <div className="mx-auto grid max-w-6xl  grid-cols-1 gap-6 py-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             <img src={LadyShirt} className="rounded-2xl h-70 w-80" alt="" />
             <img src={Bag1} className="rounded-2xl h-70 w-80"  alt="" />
             <img src={shirt3} className="rounded-2xl h-70 w-80"  alt="" />

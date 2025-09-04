@@ -13,7 +13,7 @@ const ForYou = () => {
         className="flex overflow-x-scroll pt-18 pb-18 hide-scroll-bar"
       >
         <div
-          className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 "
+          className="flex flex-nowrap lg:ml-2 md:ml-20 ml-10 "
         >
           <div className="inline-block px-3">
             <div
