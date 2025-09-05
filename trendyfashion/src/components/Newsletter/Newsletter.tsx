@@ -2,7 +2,7 @@ import { RiMailAiLine } from "react-icons/ri";
 
 const Newsletter = () => {
   return (
-    <div className="bg-amber-600 flex items-center justify-around py-14">
+    <div className="bg-amber-600 flex flex-col sm:flex-row items-center justify-around py-14">
       <div className="flex items-center gap-4 font-medium">
         <RiMailAiLine />
         <p>Sign up to Newsletter</p>
