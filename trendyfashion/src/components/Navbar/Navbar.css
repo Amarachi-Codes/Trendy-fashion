@@ -7,7 +7,7 @@
     color: #000;
     justify-content: space-between;
     padding: 16px 98px;
-    position: sticky;
+   
     top: 0;
   } 
    .nav .logoWrapper{
@@ -106,6 +106,9 @@
   .displaynav {
     display: block;
   }
+  .nav{
+     position: sticky;
+  }
   }
   @media screen and (min-width:391px)and (max-width:767px) {
     .hamburger {
@@ -144,6 +147,9 @@
   }
   .displaynav {
     display: block;
+  }
+  .nav{
+     position: sticky;
   }
   
   }

@@ -6,7 +6,7 @@ import { FiHeadphones } from "react-icons/fi";
 const UnderNav = () => {
     const [open, setOpen] = useState(false);
   return (
-    <div className="hidden sm:flex items-center justify-around py-4 ">
+    <div className="hidden sm:flex sm:sticky top-0 items-center justify-around py-4 gap-24 bg-white z-50 ">
       {/* Dropdown menu */}
                  <div className="relative inline-block text-left">
             <button
