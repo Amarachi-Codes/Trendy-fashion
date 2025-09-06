@@ -3,6 +3,7 @@ import HeaderTop from "../../components/HeaderTop/HeaderTop";
 import Newsletter from "../../components/Newsletter/Newsletter";
 import Footer from "../../components/Footer/Footer";
 import Reserved from "../../components/Reserved/Reserved";
+import TodaysDeals from "../../components/TodaysDeals/TodaysDeals";
 
 
 const Product = () => {
@@ -11,9 +12,9 @@ const Product = () => {
         <HeaderTop/>
        <Navbar/>
        <div className="max-w-6xl mx-auto">
-
+        <TodaysDeals/>
        </div>
-       <Newsletter/>
+        <Newsletter/>
       <Footer/>
       <Reserved/>
       
