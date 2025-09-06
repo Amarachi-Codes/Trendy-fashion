@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import Rangeslider from "../RangeSlider/Rangeslider";
 import Checkbox from "../Checkbox/Checkbox";
 import { useState } from "react";
+import { GrFilter } from "react-icons/gr";
 
 
 
@@ -23,8 +24,8 @@ const ProductCard = () => {
       <div>
         <div>
           <div>
-            <p>Category</p>
-            <ul>
+            <p className="py-4 font-bold">Category</p>
+            <ul className="flex flex-col gap-4">
               <NavLink to={""}>Womens Clothing</NavLink>
               <NavLink to={""}>Mens Clothing</NavLink>
               <NavLink to={""}>Jewelry & Accessories</NavLink>
@@ -33,8 +34,8 @@ const ProductCard = () => {
             </ul>
           </div>
           <div>
-            <p>Fill by price</p>
-            <ul>
+            <p className="py-4 font-bold">Fill by price</p>
+            <ul className="flex flex-col gap-4">
               <Rangeslider
         min={0}
         max={400}
@@ -67,28 +68,28 @@ const ProductCard = () => {
               
               <p>Item Condition</p>
               <Checkbox 
-              label="Red (56)"
-              checked={isChecked1}
+              label="New (1506)"
+              checked={isChecked4}
               onChange={setIsChecked4}
               
               />
               <Checkbox 
-              label="Blue (78)"
-              checked={isChecked2}
+              label="Refurbished (27)"
+              checked={isChecked5}
               onChange={setIsChecked5}
               
               />
 
               <Checkbox 
-              label="Green (54)"
-              checked={isChecked3}
+              label="Fairly Used (46)"
+              checked={isChecked6}
               onChange={setIsChecked6}/>
-              <button className="bg-amber-500">Filter</button>
+              <button className="bg-amber-500 w-35 px-6 py-1 rounded flex flex-row items-center gap-2"><GrFilter/> Filter</button>
             </ul>
           </div>
-          <div>
-            <p>New Product</p>
-            <ul>
+          <div className="">
+            <p className="py-4 font-bold">New Product</p>
+            <ul className="flex flex-col gap-4">
               <p>Range</p>
               <p>Color</p>
               <p>Item Condition</p>

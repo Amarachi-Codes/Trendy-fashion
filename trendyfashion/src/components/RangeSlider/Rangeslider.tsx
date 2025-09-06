@@ -35,7 +35,7 @@ const handleChange = (e:ChangeEvent<HTMLInputElement>) => {
       onChange={handleChange}
       className="w-full accent-blue-500" 
       />
-      <span className="text-sm mt-2">Range: {value}</span>
+      <span className="text-sm mt-2">Range: ${value}</span>
     </div>
   )
 }
